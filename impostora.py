@@ -82,7 +82,7 @@ with st.sidebar:
         st.rerun()
     st.divider()
     st.write("📢 **Invita a jugar**")
-    url = "https://juego-impostora-ods-8lsdzkchk9wieczwmbgfcg.streamlit.app/"
+    url = "https://ods-impostoragit-4r75fgmbqjzfw5gumyg7wg.streamlit.app/"
     qr_img = qrcode.make(url)
     buf = BytesIO()
     qr_img.save(buf, format="PNG")
