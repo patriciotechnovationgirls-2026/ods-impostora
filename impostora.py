@@ -5,24 +5,25 @@ from io import BytesIO
 
 # 1. LISTA DE ODS (Formato: ODS #X: Nombre)
 ODS_LIST = [
-    {"id": 1, "nombre": "ODS #1: Fin de la pobreza", "palabra": "Donación"},
-    {"id": 2, "nombre": "ODS #2: Hambre cero", "palabra": "Agricultura"},
-    {"id": 3, "nombre": "ODS #3: Salud y bienestar", "palabra": "Vacunas"},
-    {"id": 4, "nombre": "ODS #4: Educación de calidad", "palabra": "Escuelas"},
-    {"id": 5, "nombre": "ODS #5: Igualdad de género", "palabra": "Equidad"},
-    {"id": 6, "nombre": "ODS #6: Agua limpia y saneamiento", "palabra": "Grifo"},
-    {"id": 7, "nombre": "ODS #7: Energía asequible y no contaminante", "palabra": "Solar"},
-    {"id": 8, "nombre": "ODS #8: Trabajo decente y crecimiento económico", "palabra": "Empleo"},
-    {"id": 9, "nombre": "ODS #9: Industria, innovación e infraestructuras", "palabra": "Fábrica"},
-    {"id": 10, "nombre": "ODS #10: Reducción de las desigualdades", "palabra": "Inclusión"},
-    {"id": 11, "nombre": "ODS #11: Ciudades y comunidades sostenibles", "palabra": "Transporte"},
-    {"id": 12, "nombre": "ODS #12: Producción y consumo responsables", "palabra": "Reciclaje"},
-    {"id": 13, "nombre": "ODS #13: Acción por el clima", "palabra": "Reforestación"},
-    {"id": 14, "nombre": "ODS #14: Vida submarina", "palabra": "Coral"},
-    {"id": 15, "nombre": "ODS #15: Vida de ecosistemas terrestres", "palabra": "Bosque"},
-    {"id": 16, "nombre": "ODS #16: Paz, justicia e instituciones sólidas", "palabra": "Derechos"},
-    {"id": 17, "nombre": "ODS #17: Alianzas para lograr los objetivos", "palabra": "Unión"}
+    {"id": 1, "nombre": "ODS #1: Fin de la pobreza", "palabra": "Pobreza"},
+    {"id": 2, "nombre": "ODS #2: Hambre cero", "palabra": "Hambre"},
+    {"id": 3, "nombre": "ODS #3: Salud y bienestar", "palabra": "Mortalidad"},
+    {"id": 4, "nombre": "ODS #4: Educación de calidad", "palabra": "Rezago"},
+    {"id": 5, "nombre": "ODS #5: Igualdad de género", "palabra": "Violencia"},
+    {"id": 6, "nombre": "ODS #6: Agua limpia y saneamiento", "palabra": "Escasez"},
+    {"id": 7, "nombre": "ODS #7: Energía asequible y no contaminante", "palabra": "Desigualdad energética"},
+    {"id": 8, "nombre": "ODS #8: Trabajo decente y crecimiento económico", "palabra": "Precarización"},
+    {"id": 9, "nombre": "ODS #9: Industria, innovación e infraestructuras", "palabra": "Brecha tecnológica"},
+    {"id": 10, "nombre": "ODS #10: Reducción de las desigualdades", "palabra": "Inequidad"},
+    {"id": 11, "nombre": "ODS #11: Ciudades y comunidades sostenibles", "palabra": "Hacinamiento"},
+    {"id": 12, "nombre": "ODS #12: Producción y consumo responsables", "palabra": "Sobreconsumo"},
+    {"id": 13, "nombre": "ODS #13: Acción por el clima", "palabra": "Calentamiento"},
+    {"id": 14, "nombre": "ODS #14: Vida submarina", "palabra": "Contaminación"},
+    {"id": 15, "nombre": "ODS #15: Vida de ecosistemas terrestres", "palabra": "Deforestación"},
+    {"id": 16, "nombre": "ODS #16: Paz, justicia e instituciones sólidas", "palabra": "Corrupción"},
+    {"id": 17, "nombre": "ODS #17: Alianzas para lograr los objetivos", "palabra": "Descoordinación"}
 ]
+
 
 # 2. CONFIGURACIÓN DE PÁGINA
 st.set_page_config(page_title="La ImpODStora", page_icon="🕵️‍♀️", layout="centered")
